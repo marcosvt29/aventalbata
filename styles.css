@@ -37,14 +37,14 @@ header:hover {
         
         }
 
-.intro, .benefits, .gallery, .testimonials, .cta {
+.intro, .benefits, .gallery, .testimonials, .cta, .contato {
     background: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.intro h2, .benefits h2, .gallery h2, .testimonials h2, .cta h2 {
+.intro h2, .benefits h2, .gallery h2, .testimonials h2, .cta h2, .contato {
     margin-top: 0;
 }
 
