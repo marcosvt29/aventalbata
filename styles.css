@@ -1,9 +1,9 @@
 body {
     font-family:SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
     color: #1d1d1f;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+    margin: 1% px;
+    padding: 1% px;
+    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,22 +14,39 @@ body {
     max-width: 600px;
     font-size: 16px;
     width: 100%;
-    background: #D6E4FF;
+    background: #FAFAC5;
     padding: 20px;
+    margin: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
 }
 
-header {
+header{
     background-color: white;
     color: white;
-    padding: 10px;
+    height:auto;
+    margin: 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
     text-align: center;
-    border-radius: 8px;
-}
+    }
+
+ .faixa1 {
+    background-color: #5C4806;
+    height: auto;
+    color: white;
+    font-size: 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+
 
 header:hover {
         transform: scale(1.05, 1.05);
@@ -37,10 +54,10 @@ header:hover {
         
         }
 
-.intro, .benefits, .gallery, .testimonials, .cta, .contato {
-    background: #fff;
+.intro, .benefits, .gallery, .testimonials, .contato {
+    background: white;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -53,17 +70,15 @@ header:hover {
     padding-left: 20px;
 }
 
-.gallery-images {
+.video {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-}
+    justify-content: center;
+    text-align: center;
+    }
 
-.gallery-images img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
+
+
 
 .testimonial {
     margin: 10px 0;
@@ -77,6 +92,7 @@ header:hover {
     cursor: pointer;
     text-decoration: none;
     margin: auto;
+    border-radius: 10px;
     padding: 10px;
     display: flex;
     justify-content: center;
